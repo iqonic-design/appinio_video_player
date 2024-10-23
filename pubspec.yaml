@@ -10,7 +10,7 @@ environment:
 dependencies:
   cached_video_player:
     git:
-      url: https://gitlab.com/nimesh_bharadva/cached_video_player_custome_package.git
+      url: https://github.com/iqonic-design/cached_video_player.git
       ref: 1.0.0
 
   flutter:
