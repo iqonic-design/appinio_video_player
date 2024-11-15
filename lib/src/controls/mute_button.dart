@@ -52,8 +52,8 @@ class CustomVideoMuteButton extends StatelessWidget {
     return const Padding(
       padding: EdgeInsets.fromLTRB(5, 5, 0, 5),
       child: Icon(
-        Icons.volume_mute,
-        color: CupertinoColors.white,
+        Icons.volume_up,
+        color: Colors.white,
       ),
     );
   }
@@ -68,7 +68,7 @@ class CustomVideoUnMuteButton extends StatelessWidget {
       padding: EdgeInsets.fromLTRB(5, 5, 0, 5),
       child: Icon(
         Icons.volume_off,
-        color: CupertinoColors.white,
+        color: Colors.white,
       ),
     );
   }
