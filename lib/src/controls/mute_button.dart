@@ -1,5 +1,5 @@
 import 'package:appinio_video_player/src/custom_video_player_controller.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class CustomVideoPlayerMuteButton extends StatefulWidget {
   final CustomVideoPlayerController customVideoPlayerController;
@@ -52,7 +52,7 @@ class CustomVideoMuteButton extends StatelessWidget {
     return const Padding(
       padding: EdgeInsets.fromLTRB(5, 5, 0, 5),
       child: Icon(
-        CupertinoIcons.volume_mute,
+        Icons.volume_mute,
         color: CupertinoColors.white,
       ),
     );
@@ -67,7 +67,7 @@ class CustomVideoUnMuteButton extends StatelessWidget {
     return const Padding(
       padding: EdgeInsets.fromLTRB(5, 5, 0, 5),
       child: Icon(
-        CupertinoIcons.volume_off,
+        Icons.volume_off,
         color: CupertinoColors.white,
       ),
     );
